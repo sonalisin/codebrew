@@ -1,0 +1,42 @@
+
+body{
+    padding-top: 20px;
+    text-align: center;
+}
+a:link, a:visited {
+    background-color: lightgrey;
+    color: darkslategrey;
+    border: 2px lightseagreen;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Francois One', sans-serif;
+    width: 20%;
+}
+
+a:hover, a:active {
+    background-color: lightblue;
+    color: white;
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+input[type=text]:focus{
+    background-color: lightgrey;
+    border: 3px solid #555555;
+}
+
+select{
+    width: 25%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+

@@ -1,0 +1,91 @@
+* {box-sizing: border-box}
+/* Full-width input fields */
+
+form{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+
+    margin-bottom: 10px;
+}
+
+
+/*input[type=text]{*/
+    /*width: 60%;*/
+    /*padding: 15px;*/
+    /*margin: auto;*/
+    /*display: inline-block;*/
+    /*align-items: center;*/
+    /*background: #f1f1f1;*/
+    /*margin-bottom: 10px;*/
+
+/*}*/
+
+/*input[type=date]{*/
+    /*width: 60%;*/
+    /*padding: 15px;*/
+    /*margin: auto;*/
+    /*display: inline-block;*/
+    /*align-items: center;*/
+    /*background: #f1f1f1;*/
+    /*margin-bottom: 10px;*/
+
+/*}*/
+
+/*input[type=number]{*/
+    /*width: 60%;*/
+    /*padding: 15px;*/
+    /*margin: auto;*/
+    /*display: inline-block;*/
+    /*align-items: center;*/
+    /*background: #f1f1f1;*/
+    /*margin-bottom: 10px;*/
+
+/*}*/
+
+.form {
+    font-family: 'Roboto', serif;
+    margin: auto;
+    text-align: center;
+}
+/* Set a style for all buttons */
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    align: center;
+
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
