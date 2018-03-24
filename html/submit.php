@@ -11,9 +11,9 @@
 
 <?php
 
-//$servername = "128.199.224.104";
-//$username = "codebrew";
-//$password = "codebrew";
+$servername = "128.199.224.104";
+$username = "codebrew";
+$password = "codebrew";
 
 //$fname = $_POST["fname"];
 //$lname = $_POST["fname"];
@@ -32,15 +32,15 @@
 //$vaccinations = $_POST["vaccinations"];
 //$illness = $_POST["illness"];
 //$phone = $_POST["phone"];
-echo "test";
-// Create connection
-//$conn = mysqli_connect($servername, $username, $password);
 
-// Check connection
-//if (! $conn) {
-//    die("Connection failed: " . $mysqli_error());
-//}
-//echo "Connected successfully";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password);
+
+ Check connection
+if (! $conn) {
+    die("Connection failed: " . $mysqli_error());
+}
+echo "Connected successfully";
 
 //if (isset($_POST["submit"])) {
 //$sql = "INSERT INTO Person(
@@ -57,7 +57,7 @@ echo "test";
 // 	echo "Error: ".mysqli_error($conn);
 // }
 // }
-//mysqli_close ( $conn );
+mysqli_close ( $conn );
 ?>
 </body>
 </html>
